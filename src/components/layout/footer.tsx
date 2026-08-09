@@ -117,7 +117,7 @@ export function Footer() {
             >
               Perlindungan
             </h3>
-            <ul className="space-y-2.5 text-sm" style={{ color: "rgba(255,255,255,0.65)" }}>
+            <ul className="space-y-2.5 text-sm" style={{ color: "rgba(252 252 252)" }}>
               {[
                 { label: "Manfaat", href: `#${SECTION_IDS.manfaat}` },
                 { label: "Pakej", href: `#${SECTION_IDS.pakej}` },
@@ -146,7 +146,7 @@ export function Footer() {
             >
               Maklumat
             </h3>
-            <ul className="space-y-2.5 text-sm" style={{ color: "rgba(255,255,255,0.65)" }}>
+            <ul className="space-y-2.5 text-sm" style={{ color: "rgba(252 252 252)" }}>
               {[
                 { label: "Mengapa Kota Mas", href: `#${SECTION_IDS.utama}` },
                 { label: "Prinsip Syariah", href: `#${SECTION_IDS.syariah}` },
@@ -175,12 +175,12 @@ export function Footer() {
             >
               Prinsip
             </h3>
-            <ul className="mb-5 space-y-3 text-sm" style={{ color: "rgba(255,255,255,0.65)" }}>
+            <ul className="mb-5 space-y-3 text-sm" style={{ color: "rgba(252 252 252)" }}>
               <li className="flex items-start gap-2">
                 <Shield className="mt-0.5 h-4 w-4 flex-shrink-0" aria-hidden="true" />
                 <div>
                   <span className="font-semibold text-white">Tabarru&apos;</span>
-                  <p className="text-xs leading-relaxed" style={{ color: "rgba(255,255,255,0.50)" }}>
+                  <p className="text-xs leading-relaxed" style={{ color: "rgba(255,255,255)" }}>
                     Sumbangan peserta ke dalam dana bersama
                   </p>
                 </div>
@@ -189,13 +189,13 @@ export function Footer() {
                 <Heart className="mt-0.5 h-4 w-4 flex-shrink-0" aria-hidden="true" />
                 <div>
                   <span className="font-semibold text-white">Wakalah</span>
-                  <p className="text-xs leading-relaxed" style={{ color: "rgba(255,255,255,0.50)" }}>
+                  <p className="text-xs leading-relaxed" style={{ color: "rgba(255,255,255)" }}>
                     Pelantikan pengendali untuk mengurus skim
                   </p>
                 </div>
               </li>
             </ul>
-            <div className="space-y-2 text-xs" style={{ color: "rgba(255,255,255,0.40)" }}>
+            <div className="space-y-2 text-xs" style={{ color: "rgba(255,255,255)" }}>
               {/* TODO: Replace # with actual URLs */}
               <a href="#" className="block transition-colors hover:text-white">
                 Dasar Privasi
