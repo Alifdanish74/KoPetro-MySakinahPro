@@ -9,11 +9,11 @@ export function Header() {
     <header
       className="sticky top-0 z-40 w-full"
       style={{
-        background: "rgba(250, 247, 240, 0.97)",
+        background: "rgba(245, 253, 255, 0.97)",
         backdropFilter: "blur(16px)",
         WebkitBackdropFilter: "blur(16px)",
         borderBottom: "1px solid var(--color-brand-border)",
-        boxShadow: "0 1px 0 0 rgba(191,168,0,0.15), 0 2px 12px rgba(220,7,18,0.04)",
+        boxShadow: "0 1px 0 0 rgba(17,196,238,0.15), 0 2px 12px rgba(17,196,238,0.06)",
       }}
     >
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-4 px-4 sm:px-6 lg:px-8">
@@ -22,16 +22,15 @@ export function Header() {
           href={`#${SECTION_IDS.utama}`}
           className="flex items-center gap-2.5 focus-visible:outline-none focus-visible:ring-2 rounded-lg"
           style={{ "--tw-ring-color": "var(--color-brand-gold)" } as React.CSSProperties}
-          aria-label="Kohasil Raudhah — kembali ke bahagian utama"
+          aria-label="KotaMas — kembali ke bahagian utama"
         >
-          {/* Logo placeholder — replace with real SVG logo */}
-          <div
-            className="flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-lg text-white text-xs font-bold"
-            style={{ background: "var(--color-brand-green)" }}
+          {/* Logo */}
+          <img
+            src="/images/kotamas_logo.png"
+            alt="Logo KotaMas"
+            className="h-9 w-9 flex-shrink-0 rounded-lg object-contain"
             aria-hidden="true"
-          >
-            KR
-          </div>
+          />
           <div className="hidden sm:block">
             <p
               className="text-base font-bold leading-tight"
@@ -56,7 +55,7 @@ export function Header() {
           href={`#${SECTION_IDS.pakej}`}
           className="btn-primary hidden text-sm lg:inline-flex"
           style={{ padding: "0.625rem 1.25rem", minHeight: "40px" }}
-          aria-label="Daftar sebagai ahli Kohasil Raudhah"
+          aria-label="Daftar sebagai ahli KotaMas"
         >
           Langgan Sekarang
         </a>

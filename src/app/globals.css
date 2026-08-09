@@ -3,41 +3,41 @@
 @import "tailwindcss";
 
 /* ============================================================
-   DESIGN SYSTEM — KOHASIL RAUDHAH
-   Raudhah — Perlindungan Dengan Ketenangan
+   DESIGN SYSTEM — KOTAMAS
+   KotaMas — Perlindungan Dengan Ketenangan
    ============================================================ */
 
 @theme {
-  /* Brand colour palette — KOHASiL Raudhah 2.0
-     Primary:   #EEE207 (vivid yellow)
-     Secondary: #DC0712 (bold red)
+  /* Brand colour palette — KotaMas
+     Primary:   rgb(17, 196, 238)  — #11C4EE (cyan)
+     Secondary: rgb(253, 242, 103) — #FDF267 (soft yellow)
   */
-  --color-brand-green: #792525ff;
-  /* was forest green — now primary red (CTAs, headings, accents) */
-  --color-brand-green-dark: #9C0409;
-  /* deep red for dark surfaces & footer bg */
-  --color-brand-green-light: #E83540;
-  /* lighter red for hover states */
-  --color-brand-sage-muted: #FAE5E6;
-  /* was sage muted — now light rose tint */
-  --color-brand-sage-soft: #FDF0F0;
-  /* was sage soft — very light rose for card bgs */
-  --color-brand-gold: #BFA800;
-  /* darkened yellow for text/icons (readable on white) */
-  --color-brand-gold-light: #EEE207;
-  /* primary vivid yellow for buttons, highlights */
-  --color-brand-ivory: #FFFEF0;
-  /* warm ivory background (yellow tinted) */
-  --color-brand-cream: #FBF9E3;
-  /* warm cream for section alternates */
-  --color-brand-border: #E8E5C5;
-  /* warm yellow-grey border */
-  --color-brand-text: #1A1400;
-  /* near-black with warm yellow undertone */
-  --color-brand-text-muted: #5A5030;
-  /* muted warm brown */
-  --color-brand-error: #9C0409;
-  /* deep red (same as green-dark) */
+  --color-brand-green: #11C4EE;
+  /* KotaMas cyan — primary CTAs, headings, accents */
+  --color-brand-green-dark: #0B9FBF;
+  /* deep cyan for dark surfaces & footer bg */
+  --color-brand-green-light: #4DD6F5;
+  /* lighter cyan for hover states */
+  --color-brand-sage-muted: #C8EEF8;
+  /* light cyan tint — muted surface */
+  --color-brand-sage-soft: #EDF9FE;
+  /* very light cyan for card backgrounds */
+  --color-brand-gold: #C9B800;
+  /* darkened soft yellow — readable on white for text/icons */
+  --color-brand-gold-light: #FDF267;
+  /* KotaMas soft yellow — rgb(253,242,103) — buttons, highlights */
+  --color-brand-ivory: #F5FDFF;
+  /* cool near-white background (cyan tinted) */
+  --color-brand-cream: #EBF8FD;
+  /* cool cream for section alternates */
+  --color-brand-border: #B8E6F5;
+  /* cyan-tinted border */
+  --color-brand-text: #081820;
+  /* near-black with cool undertone */
+  --color-brand-text-muted: #2D5A68;
+  /* muted teal-grey */
+  --color-brand-error: #C0392B;
+  /* semantic danger red */
   --color-brand-success: #2E7D32;
   /* green kept for success states */
 
@@ -65,9 +65,9 @@
   --radius-xl: 1.75rem;
   --radius-full: 9999px;
 
-  /* Shadows */
-  --shadow-card: 0 2px 16px 0 rgba(31, 77, 58, 0.06), 0 1px 4px 0 rgba(31, 77, 58, 0.04);
-  --shadow-elevated: 0 8px 32px 0 rgba(31, 77, 58, 0.1), 0 2px 8px 0 rgba(31, 77, 58, 0.06);
+  /* Shadows — cyan channel (17, 196, 238) */
+  --shadow-card: 0 2px 16px 0 rgba(17, 196, 238, 0.08), 0 1px 4px 0 rgba(17, 196, 238, 0.05);
+  --shadow-elevated: 0 8px 32px 0 rgba(17, 196, 238, 0.14), 0 2px 8px 0 rgba(17, 196, 238, 0.08);
 }
 
 /* ============================================================
@@ -527,7 +527,7 @@ body {
   background: rgba(255, 255, 255, 0.98);
   border: 1px solid var(--color-brand-border);
   border-radius: var(--radius-xl);
-  box-shadow: 0 8px 40px rgba(31, 77, 58, 0.12), 0 2px 8px rgba(31, 77, 58, 0.06);
+  box-shadow: 0 8px 40px rgba(17, 196, 238, 0.12), 0 2px 8px rgba(17, 196, 238, 0.06);
 }
 
 /* ============================================================
@@ -536,7 +536,7 @@ body {
 
 .bottom-nav-weddingcard {
   border-radius: 1.5rem 1.5rem 0 0;
-  box-shadow: 0 -4px 32px rgba(31, 77, 58, 0.10), 0 -1px 8px rgba(31, 77, 58, 0.06);
+  box-shadow: 0 -4px 32px rgba(17, 196, 238, 0.10), 0 -1px 8px rgba(17, 196, 238, 0.06);
 }
 
 /* ============================================================

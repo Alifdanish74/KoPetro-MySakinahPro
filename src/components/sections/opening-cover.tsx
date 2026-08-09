@@ -1,6 +1,6 @@
 "use client";
 // File: src/components/sections/opening-cover.tsx
-// KOHASiL Entrance Component — Revised UI with Logo & Glassmorphic Container (Arch Removed)
+// KotaMas Entrance Component — Revised UI with Logo & Glassmorphic Container (Arch Removed)
 
 import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
@@ -72,7 +72,7 @@ export function OpeningCover() {
           className="fixed inset-0 z-[9999] flex h-dvh w-screen flex-col items-center justify-center overflow-hidden px-4 text-center touch-none overscroll-none"
           role="dialog"
           aria-modal="true"
-          aria-label="Selamat datang ke KOHASiL Raudhah"
+          aria-label="Selamat datang ke KotaMas"
         >
           {/* Responsive background: mobile portrait vs desktop landscape */}
           <picture className="absolute inset-0 z-0">
@@ -111,10 +111,10 @@ export function OpeningCover() {
                 background: "rgba(255, 255, 255, 0.85)",
                 backdropFilter: "blur(12px)",
                 WebkitBackdropFilter: "blur(12px)",
-                boxShadow: "0 16px 48px rgba(156,4,9,0.12)",
+                boxShadow: "0 16px 48px rgba(17,196,238,0.14)",
               }}
             >
-              {/* KOHASiL Official Logo Badge */}
+              {/* KotaMas Official Logo Badge */}
               <motion.div
                 initial={{ opacity: 0, scale: 0.85 }}
                 animate={{ opacity: 1, scale: 1 }}
@@ -122,8 +122,8 @@ export function OpeningCover() {
                 className="mb-5 rounded-2xl bg-white p-3 shadow-md border border-slate-100 flex items-center justify-center"
               >
                 <img
-                  src="/images/kohasil_logo.jpg"
-                  alt="Logo KOHASiL"
+                  src="/images/kotamas_logo.png"
+                  alt="Logo KotaMas"
                   className="h-14 sm:h-16 w-auto object-contain"
                 />
               </motion.div>
@@ -194,7 +194,7 @@ export function OpeningCover() {
                     touchAction: "manipulation",
                   }}
                   type="button"
-                  aria-label="Buka penerangan KOHASiL Raudhah"
+                  aria-label="Buka penerangan KotaMas"
                 >
                   Buka
                   <ChevronDown className="h-5 w-5 animate-bounce" aria-hidden="true" />

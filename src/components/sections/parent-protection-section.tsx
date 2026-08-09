@@ -50,7 +50,7 @@ export function ParentProtectionSection() {
                 },
                 {
                   icon: Info,
-                  text: "Tertakluk kepada syarat dan terma pakej. Sila hubungi Kohasil untuk maklumat lanjut.",
+                  text: "Tertakluk kepada syarat dan terma pakej. Sila hubungi KotaMas untuk maklumat lanjut.",
                 },
               ].map((item, idx) => {
                 const Icon = item.icon;
@@ -117,7 +117,7 @@ export function ParentProtectionSection() {
                   Anggaran Caruman
                 </h3>
                 <p className="text-xs" style={{ color: "var(--color-brand-text-muted)" }}>
-                  Kiraan kasar — tertakluk kepada semakan Kohasil
+                  Kiraan kasar — tertakluk kepada semakan KotaMas
                 </p>
               </div>
             </div>
@@ -211,7 +211,7 @@ export function ParentProtectionSection() {
                   aria-hidden="true"
                 />
                 <span style={{ color: "var(--color-brand-text-muted)" }}>
-                  Angka adalah contoh sahaja dan tertakluk kepada pengesahan Kohasil.
+                  Angka adalah contoh sahaja dan tertakluk kepada pengesahan KotaMas.
                 </span>
               </li>
             </ul>

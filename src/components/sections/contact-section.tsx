@@ -83,7 +83,7 @@ export function ContactSection({ preselectedPackage }: ContactSectionProps) {
             <SectionHeading
               eyebrow="Hubungi Kami"
               title="Kami Sedia Membantu Anda"
-              subtitle="Tinggalkan maklumat anda dan pegawai Kohasil akan menghubungi anda dalam masa terdekat."
+              subtitle="Tinggalkan maklumat anda dan pegawai KotaMas akan menghubungi anda dalam masa terdekat."
               align="left"
               className="mb-8"
             />
@@ -113,7 +113,7 @@ export function ContactSection({ preselectedPackage }: ContactSectionProps) {
                 },
                 {
                   icon: Mail,
-                  label: "E-mel Kohasil",
+                  label: "E-mel KotaMas",
                   value: "kohasil@gmail.com",
                   href: "mailto:kohasil@gmail.com",
                   sublabel: "Pertanyaan am & keahlian",
@@ -163,7 +163,7 @@ export function ContactSection({ preselectedPackage }: ContactSectionProps) {
               <div className="pt-4 border-t space-y-3 text-xs text-slate-600">
                 <div className="rounded-xl p-3 bg-white border border-slate-200">
                   <p className="font-bold text-green-900 text-xs mb-1">
-                    KOHASIL (Pejabat Utama)
+                    KOTAMAS (Pejabat Utama)
                   </p>
                   <p>1-23 Tingkat 1 Kanan, Blok 9, Kompleks Bangunan Kerajaan, Jalan Tuanku Abdul Halim, 50600 Kuala Lumpur</p>
                   <p className="mt-1 font-semibold text-slate-700">Tel Pejabat: 03-6203 5858</p>
@@ -236,7 +236,7 @@ export function ContactSection({ preselectedPackage }: ContactSectionProps) {
               <form
                 onSubmit={handleSubmit(onSubmit)}
                 noValidate
-                aria-label="Borang pertanyaan Kohasil Raudhah"
+                aria-label="Borang pertanyaan KotaMas"
                 className="rounded-3xl p-6 lg:p-8"
                 style={{
                   background: "#fff",
@@ -415,13 +415,13 @@ export function ContactSection({ preselectedPackage }: ContactSectionProps) {
                         {...register("persetujuan")}
                       />
                       <span className="text-xs leading-relaxed" style={{ color: "var(--color-brand-text-muted)" }}>
-                        Saya bersetuju untuk dihubungi oleh pihak Kohasil bagi tujuan pertanyaan pakej ini. Maklumat saya akan dikendalikan mengikut{" "}
+                        Saya bersetuju untuk dihubungi oleh pihak KotaMas bagi tujuan pertanyaan pakej ini. Maklumat saya akan dikendalikan mengikut{" "}
                         <a
                           href="#"
                           className="underline"
                           style={{ color: "var(--color-brand-green)" }}
                         >
-                          Dasar Privasi Kohasil
+                          Dasar Privasi KotaMas
                         </a>
                         .
                       </span>

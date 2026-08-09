@@ -84,7 +84,7 @@ export function AudioPlayer() {
     <div className="fixed bottom-20 left-4 z-[10000] sm:left-6 lg:bottom-8 lg:left-8">
       <audio
         ref={audioRef}
-        src="/assets/Adventurous%20Travel%20Background%20Music%20%231.mp3"
+        src="/assets/backgroundmusic.mp3"
         controlsList="nodownload"
         loop
         autoPlay
@@ -92,7 +92,7 @@ export function AudioPlayer() {
         className="hidden"
       />
       <motion.button
-        id="kohasil-audio-btn"
+        id="kotamas-audio-btn"
         onClick={togglePlay}
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}

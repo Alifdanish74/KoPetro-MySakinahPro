@@ -15,7 +15,7 @@ const claimsDocuments = [
   "Salinan MyKad peserta (arwah)",
   "Salinan MyKad waris yang membuat tuntutan",
   "Salinan nombor akaun bank waris",
-  "Borang tuntutan Kohasil yang lengkap diisi",
+  "Borang tuntutan KotaMas yang lengkap diisi",
   "Sekiranya kematian akibat kemalangan: laporan polis atau laporan bedah siasat",
 ];
 
@@ -31,7 +31,7 @@ const assistanceChecklist = [
 const claimsSteps = [
   { step: 1, action: "Hubungi Hotline 24 Jam", detail: `Hubungi ${BRAND.hotline} dengan segera` },
   { step: 2, action: "Sediakan Dokumen", detail: "Kumpulkan dokumen yang diperlukan" },
-  { step: 3, action: "Isi Borang Tuntutan", detail: "Borang disediakan oleh pasukan Kohasil" },
+  { step: 3, action: "Isi Borang Tuntutan", detail: "Borang disediakan oleh pasukan KotaMas" },
   { step: 4, action: "Proses Diluluskan", detail: "Tuntutan diproses dalam tempoh yang ditetapkan" },
 ];
 
@@ -328,7 +328,7 @@ export function ClaimsSection() {
                     }}
                   >
                     <p className="text-xs leading-relaxed" style={{ color: "var(--color-brand-text-muted)" }}>
-                      Senarai ini mungkin berbeza mengikut situasi. Pasukan Kohasil akan memandu waris untuk memastikan semua dokumen yang diperlukan disediakan.
+                      Senarai ini mungkin berbeza mengikut situasi. Pasukan KotaMas akan memandu waris untuk memastikan semua dokumen yang diperlukan disediakan.
                     </p>
                   </div>
                 </div>

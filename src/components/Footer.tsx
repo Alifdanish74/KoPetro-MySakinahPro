@@ -12,7 +12,7 @@ export function Footer() {
             <Layers className="w-4 h-4" />
           </div>
           <span className="font-semibold text-slate-900 dark:text-white text-sm">
-            KOHASiL Next.js Prototype
+            KotaMas Prototype
           </span>
         </div>
 
@@ -23,7 +23,7 @@ export function Footer() {
         </div>
 
         <div className="text-xs text-slate-500 dark:text-slate-500">
-          © {new Date().getFullYear()} KOHASiL. All rights reserved.
+          © {new Date().getFullYear()} KotaMas. All rights reserved.
         </div>
       </div>
     </footer>

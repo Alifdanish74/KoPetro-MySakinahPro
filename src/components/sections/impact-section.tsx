@@ -40,7 +40,7 @@ export function ImpactSection() {
   return (
     <section
       id={SECTION_IDS.impak}
-      aria-label="Impak Kohasil Raudhah"
+      aria-label="Impak KotaMas"
       className="section-texture py-16 lg:py-24"
       style={{ background: "var(--color-brand-cream)" }}
     >
@@ -48,7 +48,7 @@ export function ImpactSection() {
         <SectionHeading
           eyebrow="Impak Kami"
           title="Bersama Kami, Anda Tidak Keseorangan"
-          subtitle="Kohasil Raudhah hadir untuk memastikan setiap warga pekerja Malaysia mempunyai perlindungan yang mereka perlukan."
+          subtitle="KotaMas hadir untuk memastikan setiap warga pekerja Malaysia mempunyai perlindungan yang mereka perlukan."
           className="mb-12"
         />
 
@@ -136,7 +136,7 @@ export function ImpactSection() {
           className="mt-6 text-center text-xs leading-relaxed"
           style={{ color: "var(--color-brand-text-muted)" }}
         >
-          * Angka dengan nota &ldquo;contoh angka&rdquo; merupakan data ilustrasi dan perlu disahkan oleh pihak Kohasil sebelum penerbitan rasmi.
+          * Angka dengan nota &ldquo;contoh angka&rdquo; merupakan data ilustrasi dan perlu disahkan oleh pihak KotaMas sebelum penerbitan rasmi.
         </p>
       </ResponsiveContainer>
     </section>

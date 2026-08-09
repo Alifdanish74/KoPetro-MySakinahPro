@@ -27,7 +27,7 @@ export function Navbar() {
           </motion.div>
           <div>
             <span className="font-bold text-lg tracking-tight bg-gradient-to-r from-slate-900 to-slate-700 dark:from-white dark:to-slate-300 bg-clip-text text-transparent">
-              KOHASiL Boilerplate
+              KotaMas
             </span>
             <span className="ml-2 text-xs font-semibold px-2 py-0.5 rounded-full bg-indigo-500/10 text-indigo-600 dark:text-indigo-400 border border-indigo-500/20">
               v15 App Router

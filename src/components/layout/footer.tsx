@@ -18,7 +18,7 @@ export function Footer() {
       style={{
         backgroundColor: "var(--color-brand-green)",
         backgroundImage:
-          "radial-gradient(circle at 50% 0%, rgba(191,168,0,0.10) 0%, transparent 60%)",
+          "radial-gradient(circle at 50% 0%, rgba(253,242,103,0.12) 0%, transparent 60%)",
         color: "#fff",
       }}
       role="contentinfo"
@@ -38,13 +38,12 @@ export function Footer() {
           className="mb-10 text-center"
         >
           <div className="mb-3 flex items-center justify-center gap-3">
-            <div
-              className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-lg text-xs font-bold"
-              style={{ background: "var(--color-brand-green-dark)", color: "var(--color-brand-text)" }}
+            <img
+              src="/images/kotamas_logo.png"
+              alt="Logo KotaMas"
+              className="h-10 w-10 flex-shrink-0 rounded-lg object-contain bg-white/20 p-1"
               aria-hidden="true"
-            >
-              KR
-            </div>
+            />
             <h2
               className="display-heading-white"
               style={{ fontSize: "clamp(1.75rem, 4vw, 2.75rem)" }}
@@ -149,7 +148,7 @@ export function Footer() {
             </h3>
             <ul className="space-y-2.5 text-sm" style={{ color: "rgba(255,255,255,0.65)" }}>
               {[
-                { label: "Mengapa Kohasil", href: `#${SECTION_IDS.utama}` },
+                { label: "Mengapa KotaMas", href: `#${SECTION_IDS.utama}` },
                 { label: "Prinsip Syariah", href: `#${SECTION_IDS.syariah}` },
                 { label: "Impak Kami", href: `#${SECTION_IDS.impak}` },
                 { label: "Soalan Lazim", href: `#${SECTION_IDS.soalan}` },
@@ -216,7 +215,7 @@ export function Footer() {
             color: "rgba(255,255,255,0.35)",
           }}
         >
-          <p>&copy; {year} Kohasil Raudhah. Hak cipta terpelihara.</p>
+          <p>&copy; {year} KotaMas. Hak cipta terpelihara.</p>
           <p>Dibangunkan untuk {BRAND.product}</p>
         </div>
       </ResponsiveContainer>
