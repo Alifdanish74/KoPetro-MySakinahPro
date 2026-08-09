@@ -26,7 +26,7 @@ export function Header() {
         >
           {/* Logo */}
           <img
-            src="/images/KotaMas_logo.png"
+            src="/images/kotamas_logo.png"
             alt="Logo Kota Mas"
             className="h-9 w-9 flex-shrink-0 rounded-lg object-contain"
             aria-hidden="true"
