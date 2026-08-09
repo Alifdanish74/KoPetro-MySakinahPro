@@ -3,17 +3,17 @@
 @import "tailwindcss";
 
 /* ============================================================
-   DESIGN SYSTEM — KOTAMAS
-   KotaMas — Perlindungan Dengan Ketenangan
+   DESIGN SYSTEM — Kota Mas
+   Kota Mas — Perlindungan Dengan Ketenangan
    ============================================================ */
 
 @theme {
-  /* Brand colour palette — KotaMas
+  /* Brand colour palette — Kota Mas
      Primary:   rgb(17, 196, 238)  — #11C4EE (cyan)
      Secondary: rgb(253, 242, 103) — #FDF267 (soft yellow)
   */
   --color-brand-green: #11C4EE;
-  /* KotaMas cyan — primary CTAs, headings, accents */
+  /* Kota Mas cyan — primary CTAs, headings, accents */
   --color-brand-green-dark: #0B9FBF;
   /* deep cyan for dark surfaces & footer bg */
   --color-brand-green-light: #4DD6F5;
@@ -25,7 +25,7 @@
   --color-brand-gold: #C9B800;
   /* darkened soft yellow — readable on white for text/icons */
   --color-brand-gold-light: #FDF267;
-  /* KotaMas soft yellow — rgb(253,242,103) — buttons, highlights */
+  /* Kota Mas soft yellow — rgb(253,242,103) — buttons, highlights */
   --color-brand-ivory: #F5FDFF;
   /* cool near-white background (cyan tinted) */
   --color-brand-cream: #EBF8FD;

@@ -22,12 +22,12 @@ export function Header() {
           href={`#${SECTION_IDS.utama}`}
           className="flex items-center gap-2.5 focus-visible:outline-none focus-visible:ring-2 rounded-lg"
           style={{ "--tw-ring-color": "var(--color-brand-gold)" } as React.CSSProperties}
-          aria-label="KotaMas — kembali ke bahagian utama"
+          aria-label="Kota Mas — kembali ke bahagian utama"
         >
           {/* Logo */}
           <img
-            src="/images/kotamas_logo.png"
-            alt="Logo KotaMas"
+            src="/images/KotaMas_logo.png"
+            alt="Logo Kota Mas"
             className="h-9 w-9 flex-shrink-0 rounded-lg object-contain"
             aria-hidden="true"
           />
@@ -55,7 +55,7 @@ export function Header() {
           href={`#${SECTION_IDS.pakej}`}
           className="btn-primary hidden text-sm lg:inline-flex"
           style={{ padding: "0.625rem 1.25rem", minHeight: "40px" }}
-          aria-label="Daftar sebagai ahli KotaMas"
+          aria-label="Daftar sebagai ahli Kota Mas"
         >
           Langgan Sekarang
         </a>

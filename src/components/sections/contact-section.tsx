@@ -83,7 +83,7 @@ export function ContactSection({ preselectedPackage }: ContactSectionProps) {
             <SectionHeading
               eyebrow="Hubungi Kami"
               title="Kami Sedia Membantu Anda"
-              subtitle="Tinggalkan maklumat anda dan pegawai KotaMas akan menghubungi anda dalam masa terdekat."
+              subtitle="Tinggalkan maklumat anda dan pegawai Kota Mas akan menghubungi anda dalam masa terdekat."
               align="left"
               className="mb-8"
             />
@@ -99,23 +99,23 @@ export function ContactSection({ preselectedPackage }: ContactSectionProps) {
               {[
                 {
                   icon: Phone,
-                  label: "Hotline 24 Jam (BJSB)",
-                  value: BRAND.hotline,
-                  href: BRAND.hotlineTel,
-                  sublabel: "Bumijez Sdn Bhd - Bantuan kecemasan 24 jam",
+                  label: "Telefon Pejabat",
+                  value: "03 4042 7766",
+                  href: "tel:0340427766",
+                  sublabel: "Koperasi Telekom Malaysia Berhad (Kota Mas)",
                 },
                 {
                   icon: MessageCircle,
                   label: "WhatsApp 24 Jam",
-                  value: BRAND.hotline,
-                  href: `https://wa.me/601113001999`,
-                  sublabel: "Talian perkhidmatan & sokongan",
+                  value: "011-1300-1999",
+                  href: "https://wa.me/601113001999",
+                  sublabel: "Bumijez Sdn Bhd - Talian 24 Jam",
                 },
                 {
                   icon: Mail,
-                  label: "E-mel KotaMas",
-                  value: "kohasil@gmail.com",
-                  href: "mailto:kohasil@gmail.com",
+                  label: "E-mel Kota Mas",
+                  value: "admin@KotaMas.com.my",
+                  href: "mailto:admin@KotaMas.com.my",
                   sublabel: "Pertanyaan am & keahlian",
                 },
               ].map(({ icon: Icon, label, value, href, sublabel }) => (
@@ -160,21 +160,33 @@ export function ContactSection({ preselectedPackage }: ContactSectionProps) {
               ))}
 
               {/* Official Office Addresses */}
-              <div className="pt-4 border-t space-y-3 text-xs text-slate-600">
-                <div className="rounded-xl p-3 bg-white border border-slate-200">
-                  <p className="font-bold text-green-900 text-xs mb-1">
-                    KOTAMAS (Pejabat Utama)
+              <div className="pt-4 border-t space-y-4 text-xs text-slate-600" style={{ borderColor: "var(--color-brand-border)" }}>
+                <div className="rounded-xl p-4 bg-white border border-slate-200 shadow-sm space-y-1.5">
+                  <p className="font-bold text-green-900 text-xs tracking-wide">
+                    KOPERASI TELEKOM MALAYSIA BERHAD (KOTA MAS)
                   </p>
-                  <p>1-23 Tingkat 1 Kanan, Blok 9, Kompleks Bangunan Kerajaan, Jalan Tuanku Abdul Halim, 50600 Kuala Lumpur</p>
-                  <p className="mt-1 font-semibold text-slate-700">Tel Pejabat: 03-6203 5858</p>
+                  <p className="text-slate-600 leading-relaxed">
+                    No. 94, Tingkat 3, Wisma Kota Mas, Kompleks Damai,<br />
+                    Jalan Dato’ Haji Eusoff, 50400 Kuala Lumpur.
+                  </p>
+                  <div className="pt-1 text-slate-700 font-medium space-y-1">
+                    <p><span className="font-semibold text-slate-900">Tel:</span> <a href="tel:0340427766" className="hover:underline text-emerald-800 font-semibold">03 4042 7766</a> (Pejabat)</p>
+                    <p><span className="font-semibold text-slate-900">Email:</span> <a href="mailto:admin@KotaMas.com.my" className="hover:underline text-emerald-800 font-semibold">admin@KotaMas.com.my</a></p>
+                  </div>
                 </div>
 
-                <div className="rounded-xl p-3 bg-white border border-slate-200">
-                  <p className="font-bold text-green-900 text-xs mb-1">
-                    BUMIJEZ SDN BHD (Pengendali Skim)
+                <div className="rounded-xl p-4 bg-white border border-slate-200 shadow-sm space-y-1.5">
+                  <p className="font-bold text-green-900 text-xs tracking-wide">
+                    BUMIJEZ SDN BHD (863050-K)
                   </p>
-                  <p>No 11, Tingkat 1, Jalan PP 2/1, Taman Putra Prima, 47130 Puchong, Selangor</p>
-                  <p className="mt-1 font-semibold text-slate-700">Email: info@bumijez.com.my</p>
+                  <p className="text-slate-600 leading-relaxed">
+                    No 11, Tingkat 1, Jalan PP 2/1,<br />
+                    Taman Putra Prima, 47130 Puchong, Selangor.
+                  </p>
+                  <div className="pt-1 text-slate-700 font-medium space-y-1">
+                    <p><span className="font-semibold text-slate-900">Tel:</span> <a href="https://wa.me/601113001999" target="_blank" rel="noopener noreferrer" className="hover:underline text-emerald-800 font-semibold">011-1300-1999</a> (Talian WhatsApp 24 Jam)</p>
+                    <p><span className="font-semibold text-slate-900">Email:</span> <a href="mailto:info@bumijez.com.my" className="hover:underline text-emerald-800 font-semibold">info@bumijez.com.my</a></p>
+                  </div>
                 </div>
               </div>
             </motion.div>
@@ -236,7 +248,7 @@ export function ContactSection({ preselectedPackage }: ContactSectionProps) {
               <form
                 onSubmit={handleSubmit(onSubmit)}
                 noValidate
-                aria-label="Borang pertanyaan KotaMas"
+                aria-label="Borang pertanyaan Kota Mas"
                 className="rounded-3xl p-6 lg:p-8"
                 style={{
                   background: "#fff",
@@ -415,13 +427,13 @@ export function ContactSection({ preselectedPackage }: ContactSectionProps) {
                         {...register("persetujuan")}
                       />
                       <span className="text-xs leading-relaxed" style={{ color: "var(--color-brand-text-muted)" }}>
-                        Saya bersetuju untuk dihubungi oleh pihak KotaMas bagi tujuan pertanyaan pakej ini. Maklumat saya akan dikendalikan mengikut{" "}
+                        Saya bersetuju untuk dihubungi oleh pihak Kota Mas bagi tujuan pertanyaan pakej ini. Maklumat saya akan dikendalikan mengikut{" "}
                         <a
                           href="#"
                           className="underline"
                           style={{ color: "var(--color-brand-green)" }}
                         >
-                          Dasar Privasi KotaMas
+                          Dasar Privasi Kota Mas
                         </a>
                         .
                       </span>

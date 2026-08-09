@@ -220,7 +220,7 @@ export function IntroductionSection() {
                 Serendah RM10.00 Sebulan (Individu) & RM20.00 (Keluarga)
               </h4>
               <p className="text-sm leading-relaxed text-white/85">
-                Terbuka kepada semua ahli KotaMas dan juga Kakitangan Telekom Malaysia Berhad di seluruh Malaysia melalui potongan gaji bulanan (semua bangsa dan agama).
+                Terbuka kepada semua ahli Kota Mas di seluruh Malaysia melalui potongan gaji bulanan (semua bangsa dan agama).
               </p>
             </div>
           </motion.div>
@@ -232,7 +232,7 @@ export function IntroductionSection() {
           viewport={viewportOnce}
           transition={{ duration: 0.8, delay: 0.3 }}
         >
-          <OrnamentalDivider className="mt-14" label="KotaMas" />
+          <OrnamentalDivider className="mt-14" label="Kota Mas" />
         </motion.div>
       </ResponsiveContainer>
     </section>

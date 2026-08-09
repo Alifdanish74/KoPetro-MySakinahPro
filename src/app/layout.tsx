@@ -29,11 +29,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "KotaMas — Perlindungan Dengan Ketenangan",
+  title: "Kota Mas — Perlindungan Dengan Ketenangan",
   description:
     "Skim bantuan pengurusan jenazah 24 jam dan manfaat khairat yang Patuh Syariah untuk anda dan keluarga. Mulai dari RM10 sebulan sahaja melalui potongan gaji.",
   keywords: [
-    "kotamas",
+    "Kota Mas",
     "skim jenazah",
     "bantuan pengurusan jenazah",
     "khairat kematian",
@@ -43,15 +43,15 @@ export const metadata: Metadata = {
     "takaful jenazah",
     "potongan gaji",
   ],
-  authors: [{ name: "KotaMas" }],
+  authors: [{ name: "Kota Mas" }],
   robots: "index, follow",
   openGraph: {
     type: "website",
     locale: "ms_MY",
-    title: "KotaMas — Perlindungan Dengan Ketenangan",
+    title: "Kota Mas — Perlindungan Dengan Ketenangan",
     description:
       "Skim bantuan pengurusan jenazah 24 jam dan manfaat khairat yang Patuh Syariah untuk anda dan keluarga.",
-    siteName: "KotaMas",
+    siteName: "Kota Mas",
   },
 };
 
