@@ -122,7 +122,7 @@ export function OpeningCover() {
                 className="mb-5 rounded-2xl bg-white p-3 shadow-md border border-slate-100 flex items-center justify-center"
               >
                 <img
-                  src="/images/kotamas_logo.png"
+                  src="/images/logo_kotamas.png"
                   alt="Logo KotaMas"
                   className="h-14 sm:h-16 w-auto object-contain"
                 />
