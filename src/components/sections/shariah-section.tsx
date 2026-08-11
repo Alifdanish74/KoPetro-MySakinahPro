@@ -29,7 +29,7 @@ const principles = [
     term: "Wakalah",
     arabic: "وكالة",
     description:
-      "Pelantikan Kota Mas sebagai wakil peserta untuk mengurus dan mentadbir dana tabarru' dengan beramanah. Kota Mas bertindak sebagai pengurus yang dilantik, bukan pemilik dana.",
+      "Pelantikan KoPetro sebagai wakil peserta untuk mengurus dan mentadbir dana tabarru' dengan beramanah. KoPetro bertindak sebagai pengurus yang dilantik, bukan pemilik dana.",
   },
 ];
 
@@ -59,7 +59,7 @@ export function ShariahSection() {
         <SectionHeading
           eyebrow="Patuh Syariah"
           title="Skim Berteraskan Prinsip Islam"
-          subtitle="Kota Mas dibangunkan berdasarkan nilai-nilai Islam — patuh syariah dengan sokongan Jabatan Mufti Negeri Selangor."
+          subtitle="KoPetro dibangunkan berdasarkan nilai-nilai Islam — patuh syariah dengan sokongan Jabatan Mufti Negeri Selangor."
           className="mb-12"
           variant="white"
         />
@@ -231,7 +231,7 @@ export function ShariahSection() {
           className="mt-8 text-center text-xs font-medium leading-relaxed"
           style={{ color: "var(--color-brand-text-muted)" }}
         >
-          * Maklumat pematuhan syariah ini adalah berdasarkan prinsip am. Sila rujuk pihak Kota Mas atau jawatankuasa syariah yang dilantik untuk pengesahan rasmi.
+          * Maklumat pematuhan syariah ini adalah berdasarkan prinsip am. Sila rujuk pihak KoPetro atau jawatankuasa syariah yang dilantik untuk pengesahan rasmi.
         </motion.p>
       </ResponsiveContainer>
     </section>

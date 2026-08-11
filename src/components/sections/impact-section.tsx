@@ -8,7 +8,7 @@ import { SectionHeading } from "@/components/ui/section-heading";
 import { staggerContainer, cardReveal, viewportOnce } from "@/lib/motion";
 
 // NOTE: These figures are ILLUSTRATIVE PLACEHOLDERS.
-// Replace with real, verified data from Kota Mas before publication.
+// Replace with real, verified data from KoPetro before publication.
 const stats = [
   {
     icon: Users,
@@ -40,7 +40,7 @@ export function ImpactSection() {
   return (
     <section
       id={SECTION_IDS.impak}
-      aria-label="Impak Kota Mas"
+      aria-label="Impak KoPetro"
       className="section-texture py-16 lg:py-24"
       style={{ background: "var(--color-brand-cream)" }}
     >
@@ -48,7 +48,7 @@ export function ImpactSection() {
         <SectionHeading
           eyebrow="Impak Kami"
           title="Bersama Kami, Anda Tidak Keseorangan"
-          subtitle="Kota Mas hadir untuk memastikan setiap warga pekerja Malaysia mempunyai perlindungan yang mereka perlukan."
+          subtitle="KoPetro hadir untuk memastikan setiap warga pekerja Malaysia mempunyai perlindungan yang mereka perlukan."
           className="mb-12"
         />
 
@@ -136,7 +136,7 @@ export function ImpactSection() {
           className="mt-6 text-center text-xs leading-relaxed"
           style={{ color: "var(--color-brand-text-muted)" }}
         >
-          * Angka dengan nota &ldquo;contoh angka&rdquo; merupakan data ilustrasi dan perlu disahkan oleh pihak Kota Mas sebelum penerbitan rasmi.
+          * Angka dengan nota &ldquo;contoh angka&rdquo; merupakan data ilustrasi dan perlu disahkan oleh pihak KoPetro sebelum penerbitan rasmi.
         </p>
       </ResponsiveContainer>
     </section>

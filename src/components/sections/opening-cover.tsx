@@ -1,6 +1,6 @@
 "use client";
 // File: src/components/sections/opening-cover.tsx
-// Kota Mas Entrance Component — Revised UI with Logo & Glassmorphic Container (Arch Removed)
+// KoPetro Entrance Component — Revised UI with Logo & Glassmorphic Container (Arch Removed)
 
 import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
@@ -72,7 +72,7 @@ export function OpeningCover() {
           className="fixed inset-0 z-[9999] flex h-dvh w-screen flex-col items-center justify-center overflow-hidden px-4 text-center touch-none overscroll-none"
           role="dialog"
           aria-modal="true"
-          aria-label="Selamat datang ke Kota Mas"
+          aria-label="Selamat datang ke KoPetro"
         >
           {/* Responsive background: mobile portrait vs desktop landscape */}
           <picture className="absolute inset-0 z-0">
@@ -114,7 +114,7 @@ export function OpeningCover() {
                 boxShadow: "0 16px 48px rgba(17,196,238,0.14)",
               }}
             >
-              {/* Kota Mas Official Logo Badge */}
+              {/* KoPetro Official Logo Badge */}
               <motion.div
                 initial={{ opacity: 0, scale: 0.85 }}
                 animate={{ opacity: 1, scale: 1 }}
@@ -122,8 +122,8 @@ export function OpeningCover() {
                 className="mb-5 rounded-2xl bg-white p-3 shadow-md border border-slate-100 flex items-center justify-center"
               >
                 <img
-                  src="/images/logo_kotamas.png"
-                  alt="Logo Kota Mas"
+                  src="/images/kopetro-logo.png"
+                  alt="Logo KoPetro"
                   className="h-14 sm:h-16 w-auto object-contain"
                 />
               </motion.div>
@@ -194,7 +194,7 @@ export function OpeningCover() {
                     touchAction: "manipulation",
                   }}
                   type="button"
-                  aria-label="Buka penerangan Kota Mas"
+                  aria-label="Buka penerangan KoPetro"
                 >
                   Buka
                   <ChevronDown className="h-5 w-5 animate-bounce" aria-hidden="true" />

@@ -9,15 +9,15 @@ import { SectionHeading } from "@/components/ui/section-heading";
 import { OrnamentalDivider } from "@/components/ui/ornamental-divider";
 
 const syaratPenyertaan = [
-  "Keahlian adalah terbuka kepada semua ahli Koperasi Telekom Malaysia Berhad yang berkhidmat di seluruh Malaysia (semua bangsa & agama).",
+  "Keahlian adalah terbuka kepada semua ahli Koperasi Kakitangan PETRONAS yang berkhidmat di seluruh Malaysia (semua bangsa & agama).",
   "Tiada pemeriksaan / laporan kesihatan diperlukan untuk mendaftar pakej ini.",
   "Terdapat 3 Pakej Individu dan 3 Pakej Keluarga yang boleh didaftarkan untuk mereka yang berumur 16 tahun ke atas. Pakej Keluarga meliputi perlindungan kepada ahli, pasangan dan anak-anak (jumlah anak mengikut kategori pakej).",
   "Pihak peserta juga boleh menambah pendaftaran untuk anak (luar dari pakej keluarga) yang berumur 16 tahun ke atas dan ibu bapa sebagai peserta tambahan. Ahli wajib mendaftar diri sendiri terlebih dahulu.",
   "Pakej Individu 20 dan Keluarga 40 hanya terbuka / boleh didaftarkan kepada mereka yang berumur bawah 60 tahun sahaja pada hari/tarikh daftar. Ibu bapa yang berumur 60 tahun ke atas pada hari/tarikh daftar tidak boleh didaftarkan pakej ini.",
   "Tempoh perlindungan untuk peserta dewasa pakej Individu dan keluarga adalah sehingga tamat perkhidmatan / berhenti mencarum manakala untuk peserta tambahan / ibu bapa adalah bersama tempoh perkhidmatan peserta utama / berhenti mencarum / sehingga berumur 70 tahun.",
   "Tempoh perlindungan untuk anak-anak (dalam pakej keluarga sahaja) pula adalah pada ketika mereka berumur 1 tahun sehingga 17 tahun. Perlindungan adalah untuk anak-anak yang telah didaftarkan sahaja.",
-  "Perlindungan bermula selepas 30 hari dari tarikh 01 / 15hb terdekat selepas pengesahan bayaran potongan gaji di Kota Mas dan BJSB.",
-  "Dalam skim ini, Pihak Pengurusan Kota Mas dan BJSB dilantik sebagai wakil untuk menguruskan tabung skim Khairat dan bantuan pengurusan jenazah lengkap 24 jam kepada para peserta yang berdaftar.",
+  "Perlindungan bermula selepas 30 hari dari tarikh 01 / 15hb terdekat selepas pengesahan bayaran potongan gaji di KoPetro dan BJSB.",
+  "Dalam skim ini, Pihak Pengurusan KoPetro dan BJSB dilantik sebagai wakil untuk menguruskan tabung skim Khairat dan bantuan pengurusan jenazah lengkap 24 jam kepada para peserta yang berdaftar.",
   "Apabila keahlian diluluskan, ahli boleh menyemak kad keahlian digital di pautan rasmi http://www.card.bumijez.vip/"
 ];
 
@@ -52,7 +52,7 @@ export default function SyaratPage() {
 
         <SectionHeading
           title="Terma & Syarat Penyertaan"
-          subtitle="Syarat Penyertaan Skim & Syarat Tuntutan Manfaat Skim Khairat Kota Mas"
+          subtitle="Syarat Penyertaan Skim & Syarat Tuntutan Manfaat Skim Khairat KoPetro"
           align="center"
         />
 
@@ -83,7 +83,7 @@ export default function SyaratPage() {
                   Syarat-Syarat Penyertaan Dan Skop Perlindungan
                 </h2>
                 <p className="text-xs sm:text-sm text-slate-600">
-                  Panduan kelayakan dan pendaftaran ahli Kota Mas
+                  Panduan kelayakan dan pendaftaran ahli KoPetro
                 </p>
               </div>
             </div>

@@ -40,7 +40,7 @@ export function Footer() {
           <div className="mb-3 flex items-center justify-center gap-3">
             <img
               src="/images/kotamas_logo.png"
-              alt="Logo Kota Mas"
+              alt="Logo KoPetro"
               className="h-10 w-10 flex-shrink-0 rounded-lg object-contain bg-white/20 p-1"
               aria-hidden="true"
             />
@@ -148,7 +148,7 @@ export function Footer() {
             </h3>
             <ul className="space-y-2.5 text-sm" style={{ color: "rgba(252 252 252)" }}>
               {[
-                { label: "Mengapa Kota Mas", href: `#${SECTION_IDS.utama}` },
+                { label: "Mengapa KoPetro", href: `#${SECTION_IDS.utama}` },
                 { label: "Prinsip Syariah", href: `#${SECTION_IDS.syariah}` },
                 { label: "Impak Kami", href: `#${SECTION_IDS.impak}` },
                 { label: "Soalan Lazim", href: `#${SECTION_IDS.soalan}` },
@@ -215,7 +215,7 @@ export function Footer() {
             color: "rgba(255,255,255,0.35)",
           }}
         >
-          <p>&copy; {year} Kota Mas. Hak cipta terpelihara.</p>
+          <p>&copy; {year} KoPetro. Hak cipta terpelihara.</p>
           <p>Dibangunkan untuk {BRAND.product}</p>
         </div>
       </ResponsiveContainer>

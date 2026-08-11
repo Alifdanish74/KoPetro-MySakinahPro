@@ -83,7 +83,7 @@ export function ContactSection({ preselectedPackage }: ContactSectionProps) {
             <SectionHeading
               eyebrow="Hubungi Kami"
               title="Kami Sedia Membantu Anda"
-              subtitle="Tinggalkan maklumat anda dan pegawai Kota Mas akan menghubungi anda dalam masa terdekat."
+              subtitle="Tinggalkan maklumat anda dan pegawai KoPetro akan menghubungi anda dalam masa terdekat."
               align="left"
               className="mb-8"
             />
@@ -100,9 +100,9 @@ export function ContactSection({ preselectedPackage }: ContactSectionProps) {
                 {
                   icon: Phone,
                   label: "Telefon Pejabat",
-                  value: "03 4042 7766",
-                  href: "tel:0340427766",
-                  sublabel: "Koperasi Telekom Malaysia Berhad (Kota Mas)",
+                  value: "03 2161 1990",
+                  href: "tel:03 2161 1990",
+                  sublabel: "Koperasi Kakitangan PETRONAS Berhad (KoPetro)",
                 },
                 {
                   icon: MessageCircle,
@@ -113,9 +113,9 @@ export function ContactSection({ preselectedPackage }: ContactSectionProps) {
                 },
                 {
                   icon: Mail,
-                  label: "E-mel Kota Mas",
-                  value: "admin@KotaMas.com.my",
-                  href: "mailto:admin@KotaMas.com.my",
+                  label: "E-mel KoPetro",
+                  value: "info@kopetro.com.my",
+                  href: "mailto:info@kopetro.com.my",
                   sublabel: "Pertanyaan am & keahlian",
                 },
               ].map(({ icon: Icon, label, value, href, sublabel }) => (
@@ -163,15 +163,16 @@ export function ContactSection({ preselectedPackage }: ContactSectionProps) {
               <div className="pt-4 border-t space-y-4 text-xs text-slate-600" style={{ borderColor: "var(--color-brand-border)" }}>
                 <div className="rounded-xl p-4 bg-white border border-slate-200 shadow-sm space-y-1.5">
                   <p className="font-bold text-green-900 text-xs tracking-wide">
-                    KOPERASI TELEKOM MALAYSIA BERHAD (KOTA MAS)
+                    Koperasi Kakitangan PETRONAS (KoPetro)
                   </p>
                   <p className="text-slate-600 leading-relaxed">
-                    No. 94, Tingkat 3, Wisma Kota Mas, Kompleks Damai,<br />
-                    Jalan Dato’ Haji Eusoff, 50400 Kuala Lumpur.
+                    Block B-3-15, Megan Avenue II, <br />
+                    No 12, Jalan Yap Kwan Seng, <br />
+                    50450 Kuala Lumpur
                   </p>
                   <div className="pt-1 text-slate-700 font-medium space-y-1">
-                    <p><span className="font-semibold text-slate-900">Tel:</span> <a href="tel:0340427766" className="hover:underline text-emerald-800 font-semibold">03 4042 7766</a> (Pejabat)</p>
-                    <p><span className="font-semibold text-slate-900">Email:</span> <a href="mailto:admin@KotaMas.com.my" className="hover:underline text-emerald-800 font-semibold">admin@KotaMas.com.my</a></p>
+                    <p><span className="font-semibold text-slate-900">Tel:</span> <a href="tel:0321611990" className="hover:underline text-emerald-800 font-semibold">03 2161 1990</a> (Pejabat)</p>
+                    <p><span className="font-semibold text-slate-900">Email:</span> <a href="mailto:info@kopetro.com.my" className="hover:underline text-emerald-800 font-semibold">info@kopetro.com.my</a></p>
                   </div>
                 </div>
 
@@ -248,7 +249,7 @@ export function ContactSection({ preselectedPackage }: ContactSectionProps) {
               <form
                 onSubmit={handleSubmit(onSubmit)}
                 noValidate
-                aria-label="Borang pertanyaan Kota Mas"
+                aria-label="Borang pertanyaan KoPetro"
                 className="rounded-3xl p-6 lg:p-8"
                 style={{
                   background: "#fff",
@@ -427,13 +428,13 @@ export function ContactSection({ preselectedPackage }: ContactSectionProps) {
                         {...register("persetujuan")}
                       />
                       <span className="text-xs leading-relaxed" style={{ color: "var(--color-brand-text-muted)" }}>
-                        Saya bersetuju untuk dihubungi oleh pihak Kota Mas bagi tujuan pertanyaan pakej ini. Maklumat saya akan dikendalikan mengikut{" "}
+                        Saya bersetuju untuk dihubungi oleh pihak KoPetro bagi tujuan pertanyaan pakej ini. Maklumat saya akan dikendalikan mengikut{" "}
                         <a
                           href="#"
                           className="underline"
                           style={{ color: "var(--color-brand-green)" }}
                         >
-                          Dasar Privasi Kota Mas
+                          Dasar Privasi KoPetro
                         </a>
                         .
                       </span>

@@ -21,7 +21,7 @@ export interface PackageCategory {
   packages: Package[];
 }
 
-// NOTE: All figures below are SAMPLE DATA pending verification by Kota Mas.
+// NOTE: All figures below are SAMPLE DATA pending verification by KoPetro.
 // Do not present these as legally confirmed amounts.
 
 export const packageCategories: PackageCategory[] = [

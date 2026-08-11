@@ -20,7 +20,7 @@ export const assistanceSteps: ProcessStep[] = [
     id: "semakan",
     step: 2,
     title: "Semakan Maklumat",
-    description: "Maklumat waris dan ahli disemak dengan segera oleh pasukan Kota Mas.",
+    description: "Maklumat waris dan ahli disemak dengan segera oleh pasukan KoPetro.",
     icon: "ClipboardCheck",
   },
   {

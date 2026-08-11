@@ -99,7 +99,7 @@ export function HeroSection() {
               className="mb-6 text-lg sm:text-xl font-semibold leading-relaxed text-slate-800"
               style={{ fontFamily: "var(--font-heading)" }}
             >
-              Ringankan Beban Orang Yang Tersayang Apabila Berlaku Kematian Yang Tidak Diduga Dengan Skim Khairat Potongan Gaji Bulanan Kota Mas.
+              Ringankan Beban Orang Yang Tersayang Apabila Berlaku Kematian Yang Tidak Diduga Dengan Skim Khairat Potongan Gaji Bulanan KoPetro.
             </motion.p>
 
             {/* Feature Pills */}
@@ -144,7 +144,7 @@ export function HeroSection() {
                 style={{
                   background: "var(--color-brand-gold)",
                 }}
-                aria-label="Lihat pilihan pakej perlindungan Kota Mas"
+                aria-label="Lihat pilihan pakej perlindungan KoPetro"
               >
                 Lihat Pilihan Pakej
                 <ArrowRight className="h-4 w-4" aria-hidden="true" />
