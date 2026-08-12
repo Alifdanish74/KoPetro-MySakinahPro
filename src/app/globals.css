@@ -3,17 +3,17 @@
 @import "tailwindcss";
 
 /* ============================================================
-   DESIGN SYSTEM — KoPetro
-   KoPetro — Perlindungan Dengan Ketenangan
+   DESIGN SYSTEM — KOPETRO
+   KOPETRO — Perlindungan Dengan Ketenangan
    ============================================================ */
 
 @theme {
-  /* Brand colour palette — KoPetro
+  /* Brand colour palette — KOPETRO
      Primary:   rgb(17, 196, 238)  — #11C4EE (cyan)
      Secondary: rgb(253, 242, 103) — #FDF267 (soft yellow)
   */
   --color-brand-green: #6DB33E;
-  /* KoPetro cyan — primary CTAs, headings, accents */
+  /* KOPETRO cyan — primary CTAs, headings, accents */
   --color-brand-green-dark: #4E7C2F;
   /* deep cyan for dark surfaces & footer bg */
   --color-brand-green-light: #4DD6F5;
@@ -25,7 +25,7 @@
   --color-brand-gold: #C9B800;
   /* darkened soft yellow — readable on white for text/icons */
   --color-brand-gold-light: #FDF267;
-  /* KoPetro soft yellow — rgb(253,242,103) — buttons, highlights */
+  /* KOPETRO soft yellow — rgb(253,242,103) — buttons, highlights */
   --color-brand-ivory: #F5FDFF;
   /* cool near-white background (cyan tinted) */
   --color-brand-cream: #EBF8FD;

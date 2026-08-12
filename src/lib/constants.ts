@@ -1,7 +1,7 @@
 // File: src/lib/constants.ts
 
 export const BRAND = {
-  name: "KoPetro",
+  name: "KOPETRO",
   tagline: "Perlindungan Dengan Ketenangan",
   description: "Skim bantuan pengurusan jenazah 24 jam dan manfaat khairat untuk membantu meringankan urusan keluarga.",
   hotline: "011-1300 1999",

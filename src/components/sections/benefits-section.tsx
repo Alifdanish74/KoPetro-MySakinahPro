@@ -219,7 +219,7 @@ export function BenefitsSection() {
           viewport={viewportOnce}
           transition={{ duration: 0.8, delay: 0.3 }}
         >
-          <OrnamentalDivider className="mt-14" label="KoPetro" />
+          <OrnamentalDivider className="mt-14" label="KOPETRO" />
         </motion.div>
       </ResponsiveContainer>
     </section>

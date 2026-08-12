@@ -658,7 +658,7 @@ export function PackageSection({ onPackageSelect }: PackageSectionProps) {
 
                     <div className="pt-3 space-y-2">
                       <a
-                        href={`https://wa.me/601113001999?text=Salam%20KoPetro,%20saya%20telah%20menghantar%20permohonan%20pakej%20${encodeURIComponent(selectedFormPackage.name)}.%20Boleh%20bantu%20pengesahan?`}
+                        href={`https://wa.me/601113001999?text=Salam%20KOPETRO,%20saya%20telah%20menghantar%20permohonan%20pakej%20${encodeURIComponent(selectedFormPackage.name)}.%20Boleh%20bantu%20pengesahan?`}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="w-full flex items-center justify-center gap-2 py-3 rounded-xl text-sm font-bold text-white shadow-md transition-all hover:opacity-95"
@@ -717,7 +717,7 @@ export function PackageSection({ onPackageSelect }: PackageSectionProps) {
 
                     <div>
                       <label htmlFor="modal-noAhli" className="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1">
-                        Nombor Ahli KoPetro / Staff ID <span className="text-slate-400 font-normal">(Kosongkan jika belum ada)</span>
+                        Nombor Ahli KOPETRO / Staff ID <span className="text-slate-400 font-normal">(Kosongkan jika belum ada)</span>
                       </label>
                       <input
                         id="modal-noAhli"

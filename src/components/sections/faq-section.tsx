@@ -163,7 +163,7 @@ export function FaqSection() {
             style={{ color: "var(--color-brand-gold)" } as React.CSSProperties}
           />
           <p className="text-xs leading-relaxed" style={{ color: "var(--color-brand-text-muted)" }}>
-            <strong style={{ color: "var(--color-brand-text)" }}>Nota kepada KoPetro:</strong> Soalan bertanda &ldquo;Perlu sahkan&rdquo; memerlukan pengesahan fakta oleh pihak KoPetro sebelum penerbitan laman sesawang ini.
+            <strong style={{ color: "var(--color-brand-text)" }}>Nota kepada KOPETRO:</strong> Soalan bertanda &ldquo;Perlu sahkan&rdquo; memerlukan pengesahan fakta oleh pihak KOPETRO sebelum penerbitan laman sesawang ini.
           </p>
         </div>
       </ResponsiveContainer>

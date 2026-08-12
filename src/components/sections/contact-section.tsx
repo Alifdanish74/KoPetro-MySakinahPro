@@ -83,7 +83,7 @@ export function ContactSection({ preselectedPackage }: ContactSectionProps) {
             <SectionHeading
               eyebrow="Hubungi Kami"
               title="Kami Sedia Membantu Anda"
-              subtitle="Tinggalkan maklumat anda dan pegawai KoPetro akan menghubungi anda dalam masa terdekat."
+              subtitle="Tinggalkan maklumat anda dan pegawai KOPETRO akan menghubungi anda dalam masa terdekat."
               align="left"
               className="mb-8"
             />
@@ -102,7 +102,7 @@ export function ContactSection({ preselectedPackage }: ContactSectionProps) {
                   label: "Telefon Pejabat",
                   value: "03 2161 1990",
                   href: "tel:03 2161 1990",
-                  sublabel: "Koperasi Kakitangan PETRONAS Berhad (KoPetro)",
+                  sublabel: "Koperasi Kakitangan PETRONAS Berhad (KOPETRO)",
                 },
                 {
                   icon: MessageCircle,
@@ -113,7 +113,7 @@ export function ContactSection({ preselectedPackage }: ContactSectionProps) {
                 },
                 {
                   icon: Mail,
-                  label: "E-mel KoPetro",
+                  label: "E-mel KOPETRO",
                   value: "info@kopetro.com.my",
                   href: "mailto:info@kopetro.com.my",
                   sublabel: "Pertanyaan am & keahlian",
@@ -163,7 +163,7 @@ export function ContactSection({ preselectedPackage }: ContactSectionProps) {
               <div className="pt-4 border-t space-y-4 text-xs text-slate-600" style={{ borderColor: "var(--color-brand-border)" }}>
                 <div className="rounded-xl p-4 bg-white border border-slate-200 shadow-sm space-y-1.5">
                   <p className="font-bold text-green-900 text-xs tracking-wide">
-                    Koperasi Kakitangan PETRONAS (KoPetro)
+                    Koperasi Kakitangan PETRONAS (KOPETRO)
                   </p>
                   <p className="text-slate-600 leading-relaxed">
                     Block B-3-15, Megan Avenue II, <br />
@@ -249,7 +249,7 @@ export function ContactSection({ preselectedPackage }: ContactSectionProps) {
               <form
                 onSubmit={handleSubmit(onSubmit)}
                 noValidate
-                aria-label="Borang pertanyaan KoPetro"
+                aria-label="Borang pertanyaan KOPETRO"
                 className="rounded-3xl p-6 lg:p-8"
                 style={{
                   background: "#fff",
@@ -428,13 +428,13 @@ export function ContactSection({ preselectedPackage }: ContactSectionProps) {
                         {...register("persetujuan")}
                       />
                       <span className="text-xs leading-relaxed" style={{ color: "var(--color-brand-text-muted)" }}>
-                        Saya bersetuju untuk dihubungi oleh pihak KoPetro bagi tujuan pertanyaan pakej ini. Maklumat saya akan dikendalikan mengikut{" "}
+                        Saya bersetuju untuk dihubungi oleh pihak KOPETRO bagi tujuan pertanyaan pakej ini. Maklumat saya akan dikendalikan mengikut{" "}
                         <a
                           href="#"
                           className="underline"
                           style={{ color: "var(--color-brand-green)" }}
                         >
-                          Dasar Privasi KoPetro
+                          Dasar Privasi KOPETRO
                         </a>
                         .
                       </span>

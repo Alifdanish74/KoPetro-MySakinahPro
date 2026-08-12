@@ -18,10 +18,10 @@ export const enquirySchema = z.object({
   // Checkbox must be checked (truthy) — Zod v4: use boolean().refine instead of literal for broader compat
   persetujuan: z
     .boolean({
-      message: "Anda perlu bersetuju untuk dihubungi oleh pihak KoPetro",
+      message: "Anda perlu bersetuju untuk dihubungi oleh pihak KOPETRO",
     })
     .refine((val) => val === true, {
-      message: "Anda perlu bersetuju untuk dihubungi oleh pihak KoPetro",
+      message: "Anda perlu bersetuju untuk dihubungi oleh pihak KOPETRO",
     }),
 });
 

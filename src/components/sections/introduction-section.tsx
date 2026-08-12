@@ -220,7 +220,7 @@ export function IntroductionSection() {
                 Serendah RM10.00 Sebulan (Individu) & RM20.00 (Keluarga)
               </h4>
               <p className="text-sm leading-relaxed text-white/85">
-                Terbuka kepada semua ahli KoPetro di seluruh Malaysia melalui potongan gaji bulanan (semua bangsa dan agama).
+                Terbuka kepada semua ahli KOPETRO di seluruh Malaysia melalui potongan gaji bulanan (semua bangsa dan agama).
               </p>
             </div>
           </motion.div>
@@ -232,7 +232,7 @@ export function IntroductionSection() {
           viewport={viewportOnce}
           transition={{ duration: 0.8, delay: 0.3 }}
         >
-          <OrnamentalDivider className="mt-14" label="KoPetro" />
+          <OrnamentalDivider className="mt-14" label="KOPETRO" />
         </motion.div>
       </ResponsiveContainer>
     </section>
